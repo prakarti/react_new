@@ -12,17 +12,17 @@ function validate()
     }
 }
 
-async function callApi()
+ function callApi()
 {
     alert("callApi");
-    await submitLoginThroughPromise();
+     submitLoginThroughPromise();
   
 }
-async function submitLoginThroughPromise()
+ function submitLoginThroughPromise()
 {
   
 
-    const response = await axios({
+    const response =  axios({
       method: 'post',
       url: 'https://euro-dev.learnindialearn.in/api/auth/auth/login',
       
